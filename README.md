@@ -3,7 +3,7 @@
 Given a list of individuals participating in a standup meeting.  
 I want to randomly pick one and ask him about Yesterday, Today and what is Blocking.  
 I want to messure the time in seconds that the individual took to update.  
-Then send the response to a channell.  
+Send responses to a teams channel.  
 Keep getting names from the list till is finished.
 
 Configuration:
