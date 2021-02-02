@@ -39,12 +39,12 @@ def stand_up_host():
             print("%s talked for %d seconds" % (name, stop_time))
             send_to_teams(
                 """
-                          \n# **%s**
-                          \n- **Yesterday:** *%s*
-                          \n- **Today:** *%s*
-                          \n- **Blockers:** ***%s***
-                          \nSeconds took: **%d**
-                          """
+                \n# **%s**
+                \n- **Yesterday:** *%s*
+                \n- **Today:** *%s*
+                \n- **Blockers:** ***%s***
+                \nSeconds took: **%d**
+                """
                 % (name, yesterday, today, blockers, stop_time)
             )
             break
