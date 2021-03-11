@@ -2,7 +2,7 @@
 Configuration options for standup host.
 
 team_names
-teasm_webhook
+teams_webhook
 
 """
 import os
